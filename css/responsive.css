@@ -1,0 +1,185 @@
+@media screen and (max-width: 768px){
+    
+    /* Header */
+    .container-logo{
+        
+        width: 100%;
+        text-align :center;   
+    }
+    .navegation {
+       display :none;
+       margin:auto;
+       padding: 40px 0px;
+       justify-content :center; 
+       text-align :center;
+       line-height :1.5em; 
+       
+       }
+    .activenavegation{
+        display :block;
+        position :absolute;
+        top: 80px;
+        left: 0px;      
+        background:#ffffff;
+        width:100vw;
+        height:100vh;
+        transition :0.5s ease;
+        
+    }
+    .navegation nav ul li a{
+        color:black;
+    }   
+    .bars--menu{
+        display :block;
+    }
+    .container-logo h1{
+        font-size :1em;
+    }
+    .navegation nav ul{
+        display :block;
+    }
+    .container__social-header{
+        margin: 20px;
+    }
+   .container__social-header a{
+       display:;
+       color:black;
+   } 
+   .container-logo img{
+       width: 250px;
+   }  
+    /* SECCION de slider*/
+   .slider {
+       width: 100vw;
+       height: 100vh;
+   }
+   .slides img{
+       width: 300px;
+       height: 400px;
+   }
+   .navigation--auto,
+   .navigation--manual{
+       width: 300px;
+       display :none;
+   }
+   /*  */
+   .container--card_experiencia{
+       display :block;
+       
+   }
+   .card_experiencia{
+       width: 90%;
+   }
+   /*  */
+   .container--personal{
+       width:;
+   }
+   .container--personal iframe{
+    width: 90%;
+    height: 280px;
+ }
+ .parrafo-sobremi{
+     font-size :1em;
+ }
+ .contact--personal a{
+     font-size :1em;
+     padding:5px;
+ }
+ .contact--personal a i{
+     margin: 5px;
+ }
+ .video iframe{
+     width: 90%;
+     background:;
+ }
+ /* Styles servicios*/
+ .description-show h3{
+     font-size :1em;
+ }
+ .description-show p{
+     font-size :.8em;
+ }
+ .container-social__contact ul{ 
+    flex-direction:column;
+}
+.container-contact p{
+    font-size :1em;
+}
+.container-contact h3{
+    font-size :;
+}
+.container-social__contact a{
+    font-size :1em;
+    display :;
+    flex-direction :row;
+}
+.container-social__contact img{
+    width: 30px;
+    height: 30px;
+} 
+  .contact-whatsapp {
+     opacity:1;
+     width: 50px;
+     height: 50px;
+ } 
+ .activecontact-whatsapp{
+     opacity :0;
+ }
+ .contact-whatsapp  i{
+    font-size :40px;
+    }
+    #container-arriba{
+        width:20px ;
+        height: 20px;
+        font-size :20px;
+        right: 40px;
+    }
+    /* footer */
+    footer{
+        display :flex;
+        justify-content :center;
+        align-items :center; 
+    }
+    .container--link{
+        display :flex;
+        flex-direction :column;
+    }
+    .logo--footer{
+        background:;
+        display :flex;
+        justify-content :center;
+        align-items :center;   
+    }
+    
+    .link--footer{
+    background:;
+    margin: auto;
+    width: 100%;
+    display :flex;        
+    justify-content :center;
+    align-items :center;
+    }
+   .link--footer ul li{
+       text-align :center;
+   }
+    .social--footer ul li{
+        text-align :center;
+        
+    }
+    .seguridad{
+    background:;
+    width: 100%;
+   
+}
+   .seguridad ul li{
+       
+       text-align :center;
+   }
+   .copyright p{
+       font-size :8px;
+       color:white;
+   }
+   .tarjeta-show {
+       flex-direction :column;
+   }
+}

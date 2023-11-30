@@ -1,0 +1,325 @@
+/* SECCION BANNER*/
+
+#banner{
+   background:;
+   margin:0 auto;
+   width: 100%;
+   justify-content :center;
+   aling-item :center;
+   text-align :center;
+}
+.titulo--banner{
+    padding:150px 0px 50px 0px;
+    color:white;
+    font-size :2em;
+    font-weight :bold;
+    text-transform :uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.section--banner{
+   width: 90%;
+   max-width:900px;
+   margin:30px auto;
+   overflow :hidden;
+   position :relative;
+}
+
+.container--slider{
+    display :flex;
+    width: 400%;
+    height:400px;
+    margin-left:-100%;
+}
+.section__slider-barner{
+    width: 100%;
+    height: 100%;
+}
+.slider--img{
+    display :block;
+    width: 100%;
+    height: 100%;
+    object-fit :cover;
+}
+.slider__btn{
+   position :absolute;
+   width: 40px;
+   height: 40px;
+   background:rgba(255, 255, 255, 0.5);
+   top: 50%;
+   transform :translateY(-50%);
+   font-size :30px;
+   font-weight :bold;
+   font-family :monospace;
+   text-align :center;
+   border-radius :50%;
+   cursor :pointer;
+}
+.slider__btn:hover{
+    background-color:#ffffff; /* solid white on hover */
+    color:#000000; /* black text color on hover */
+    box-shadow:#000000; /* add some shadow on hover */
+    transition-duration:.5s; /* smooth transition on hover */
+    animation-play-state : paused;
+}
+.btn__right{
+    right: 10px;
+}
+.btn__left{
+    left: 10px;
+}
+/*  */
+.section-slider{
+    margin: 0;
+    padding: 0;
+    display :flex; 
+    justify-content :center;
+    aling-item :center;
+}
+.slider{
+    width:800px;
+    height:900px;
+    border-radius :10px;
+    overflow :hidden;
+}
+.slides{
+    display :flex;
+    width: 500%;
+    height: 500px;
+    
+}
+.slides input{
+     display :none;
+ }
+.slide{
+     width: 20%;
+     transition: 2s;
+     text-align :center;
+     justify-content :center;     
+     
+}    
+
+.slide img,
+iframe{
+     width: 800px;
+     height: 500px;
+     object-fit :cover;
+ }
+ .text{
+     background:;
+     height: 400px;
+ }
+ .slide h2,
+ .slide p
+ {
+     color:white;
+     
+}
+ 
+ .slide h2{
+     background: ;
+     font-size:3em;
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+ .slide a{
+     background: white;
+     font-size :1.7em;
+     color :black;
+     width: 180px;
+     border-radius :60px; 
+     padding :20px;   
+     display :block;  
+     margin: 20px auto; 
+     text-decoration :none;  
+ }
+ .slide p{
+     font-size :1.7em;
+     line-height:1.6;
+     padding: 20px auto;
+     background:;
+ }
+.navigation--manual{
+     position :absolute;
+     width: 800px;
+     margin-top: 360px;
+     display :flex;
+     justify-content :center;
+ }
+.manual--btn{
+   border:2px solid #40D3DC; 
+   border-radius :10px;
+   padding: 5px;
+   cursor:pointer;
+   transition:1s;
+}
+.manual--btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual--btn:hover{
+    background: #40D3DC;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+.navigation--auto{
+    position :absolute;
+    display :flex;
+    width:800px ;
+    justify-content :center;
+    margin-top: 860px;
+}
+.navigation--auto div{
+    border:2px solid #40D3DC;
+    padding: 5px;
+    border-radius:10px;
+    transition:1s;
+}
+.navigation--auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navegation--auto .auto--btn1{
+    background: #40D3DC;
+}
+#radio2:checked ~ .navegation--auto .auto--btn2{
+    background: #40D3DC;
+}
+#radio3:checked ~ .navegation--auto .auto--btn3{
+    background: #40D3DC;
+}
+
+
+/* galeria */
+.section--galeria{
+    margin:auto;
+    background:white;
+    width: 100%;
+    height: 300px;
+    justify-content :center;
+    text-align :center;
+    aling-item :center;
+}
+.container--galeria{
+    margin: auto;
+    padding: 50px 0;
+    width: 100%;
+    height: 100%;
+}
+.container--galeria p{
+    margin: 20px;
+    padding-bottom:40px ;
+}
+.titulo--galeria a{
+    font-size :1.7em;
+    font-weight :bold;
+    color:#000000;
+    text-decoration :none;
+}
+.btn--galeria{
+    color:#ffffff;
+    background: #000000;
+    height: 50px;
+    padding: 20px;
+    border-radius :60px;      
+    text-decoration :none;
+    font-size:1em;
+    
+}
+/* tarjetas */
+.section--card_experiencia{
+    background:#00000;
+    margin: 0 auto;
+    justify-content :center;
+    aling-item :center;
+    text-align :center;
+}
+.container--card_experiencia{
+    display :flex;
+    margin:30px auto;
+    width: 90%;
+    justify-content :center;
+    aling-item :center;
+    text-align :center;
+}
+.card_experiencia{
+    width: 400px;
+    height:500px;
+    margin: 20px 20px;
+    border:2px solid white;
+    border-radius:20px;
+    box-shadow:;
+}
+.card_experiencia img{
+    width: 100%;
+    height: 45%;
+    object-fit :cover;
+    border-radius :20px 20px 0px 0px;
+}
+.card_experiencia h3{
+    color:white;
+}
+.card_experiencia p{
+    color:white;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size :1em;
+}
+.card_experiencia a{
+    color:black;
+    background: white;
+    border:1px solid black;
+    border-radius:10px;
+    padding: 5px;
+    margin: 10px;
+    cursor:pointer;
+    transition :0.5s;
+    text-decoration :none;
+}
+.card_experiencia a:hover {
+    transform :scale(1.12);
+}
+/*  */
+.section--personal{
+    background:;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.container--personal{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    display:grid;
+    place-items :center;
+    background: white;
+}
+
+.container--personal h3{
+    font-size :40px;
+}
+.container--personal iframe {
+    
+}
+
+@media screen and (max-width: 768px){
+    .slide h2{
+        font-size :1.7em;
+    }
+    .slide p{
+        font-size :1em;
+        margin: 20px;
+    }
+    .slide a{
+        font-size :1em;
+        padding: 10px;
+    }
+    .titulo--galeria a{
+        font-size :1em;
+    }
+}
