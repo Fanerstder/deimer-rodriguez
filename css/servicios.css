@@ -45,6 +45,16 @@
       font-weight:100;
       margin-top: 20px;
   }
+.note-service{
+      background: white;
+      width: 100%;
+  } 
+  .note-service p{
+      color:black;
+      padding: 20px;
+      font-size :1em;  
+      font-weight :bold;
+  }
   .contenido-acordeon a{
       margin-top :20px; 
       padding: 10px 20px; 
