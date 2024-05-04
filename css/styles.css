@@ -218,20 +218,16 @@ footer{
     width: 100%;
 }
 .container--link{
-    background:;
     width: 90%;
     height: 100%;
     display :grid;
     grid-template-columns :25% 25% 25% 25%;
-    grid-template-rows: ;
     place-items:center;
     margin: auto;
     
 }
 
-.container-footer div{
-    border-right :;
-}
+
 .logo--footer{
     margin: 20px;
     padding-left:20px ;
@@ -258,11 +254,10 @@ footer{
 }
 .footer p{
     color :white;
-    font-family:;
+    font-family:'Roboto', sans-serif;
 }
 
 .copyright{
-    background:;
     margin: 20px;
     text-align :center;
     
