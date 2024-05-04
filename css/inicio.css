@@ -300,6 +300,36 @@ iframe{
 .container--personal h3{
     font-size :40px;
 }
+/* style redes sociales */
+#section--redes{
+    margin:0 auto;
+    padding: 40px 0px;
+    width: 100%;
+    display :grid;
+    place-items :center;
+}
+.redes--sociales{
+    padding-top: 20px;
+    margin: 40px auto;
+    width:100%;
+    display :flex;
+    flex-direction :column;    
+    justify-content :center;
+    align-items:center;
+}
+.redes--sociales h2{
+    font-size :2.2em;
+    font-weight :bold;
+    font-family :'Roboto', sans-serif ;
+    color:white;
+    
+}
+.redes--sociales iframe{
+    margin :40px auto;
+    display:flex;
+    width: 455px;
+    height: 700px;
+}
 
 @media screen and (max-width: 768px){
     .slide h2{
@@ -315,5 +345,9 @@ iframe{
     }
     .titulo--galeria a{
         font-size :1em;
+    }
+     .redes--sociales iframe{
+        width: 315px;
+        height: 500px;
     }
 }
